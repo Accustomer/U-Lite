@@ -21,11 +21,11 @@ Change some parameters in **infer_demo.py -- inferDemo** to inference yourself d
 
 ### Single object example
 
-![example](runs/crop_chula/prediction/example.jpg)
+![example](supplementary/single-object-example.jpg)
 
 ### Multiple objects example
 
 ![105-mark](runs/chula/prediction/105-mark.jpg)
 
-See more details in https://zhuanlan.zhihu.com/p/630885217
+See more details in [U-Lite，轻量级U-Net - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/650252340)
 

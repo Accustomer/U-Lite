@@ -1,0 +1,28 @@
+# Model configure
+in_channels: 3
+num_classes: 1
+channels: [16, 32, 64, 128, 256, 512]
+act: nn.GELU()  # nn.LeakyReLU(0.1)  # nn.ReLU() # nn.GELU()
+use_my: False
+
+# Parameter for data augment
+gray: 0.3   # Change color image to gray
+hsv_h: 0.03  # image HSV-Hue augmentation (fraction)
+hsv_s: 0.7  # image HSV-Saturation augmentation (fraction)
+hsv_v: 0.4  # image HSV-Value augmentation (fraction)
+degrees: 0.0  # image rotation (+/- deg)
+translate: 0.2  # image translation (+/- fraction)
+scale: 0.75  # image scale (+/- gain)
+shear: 0.0  # image shear (+/- deg)
+perspective: 0.0  # image perspective (+/- fraction), range 0-0.001
+flipud: 0.5  # image flip up-down (probability)
+fliplr: 0.5  # image flip left-right (probability)
+mosaic: 1.0  # image mosaic (probability)
+copy_paste: 0.2  # image copy paste (probability)
+
+# Parameters for training
+lr0: 0.003  # initial learning rate (i.e. SGD=1E-2, Adam=1E-3)
+momentum: 0.937  # SGD momentum/Adam beta1
+weight_decay: 0.0005  # optimizer weight decay 5e-4
+
+

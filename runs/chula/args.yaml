@@ -1,0 +1,17 @@
+data: data/chula/
+weights: ''
+img_size:
+- 512
+- 640
+cfg: data/chula/param.yaml
+workers: 4
+epochs: 200
+batch_size: 4
+val_batch_size: 1
+adam: false
+evaluate: false
+seed: 8888
+gpu: '1'
+amp: true
+cache: null
+save_dir: runs/chula

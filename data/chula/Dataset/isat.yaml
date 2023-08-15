@@ -1,0 +1,11 @@
+label:
+- color: '#000000'
+  name: __background__
+- color: '#00ff00'
+  name: hollow
+- color: '#ff0000'
+  name: solid
+- color: '#ffaa00'
+  name: wbc
+- color: '#0000ff'
+  name: Selected

@@ -6,12 +6,12 @@ Use following commands to train yourself dataset.
 ### Single object
 
 ``` Shell
-$ cd ULite
+$ cd U-Lite
 $ python train.py --data data/crop_chula --img-size 64 64 --cfg data/crop_chula/param.yaml --workers 4 --epochs 300 --batch-size 16 --gpu 0 --amp --cache --save-dir runs/crop_chula
 ```
 ### Multiple objects
 ``` Shell
-$ cd ULite
+$ cd U-Lite
 $ python train.py --data data/chula --img-size 512 640 --cfg data/chula/param.yaml --workers 4 --epochs 300 --batch-size 4 --gpu 0 --amp --cache --save-dir runs/chula
 ```
 
